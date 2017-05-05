@@ -7,7 +7,7 @@ print("The five random numbers are: ")
 for j in five :
     print (j)
 
-n = [10,100,1000,10000,100000]
+n = [10,10**2,10**3,10**4,10**5]
 # n=10
 for i in n :
     print("The mean of %d numbers are:"%i ,np.mean(2*np.random.sample(i)-1))
